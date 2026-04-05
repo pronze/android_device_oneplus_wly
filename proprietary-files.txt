@@ -1,11 +1,12 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10 Pro 5G (NE2213_15.0.0.901(EX01)).
+## are from OnePlus 10 Pro 5G (NE2213_16.0.3.502(EX01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/acdb_cal.acdb
+# odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/acdb_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/aiboost/libQnnHtpV69Skel.so
@@ -1016,6 +1017,8 @@ odm/lib64/libaisal.so
 odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
 odm/lib64/libalCFR.so
+odm/lib64/libalog.so
+odm/lib64/libalogencrypt.so
 odm/lib64/libalgoFisheye.so
 odm/lib64/libancbase_rt_bokeh.so
 odm/lib64/libancbase_rt_fusion.so;FIX_SONAME
