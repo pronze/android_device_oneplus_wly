@@ -197,7 +197,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/camx.provider@2.7-legacy.so',
         'vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64',
     ): blob_fixup()
-    .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
