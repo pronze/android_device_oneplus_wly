@@ -1,0 +1,12 @@
+# Device info
+ro.product.odm.device=OP516FL1
+ro.product.odm.model=OP516FL1
+ro.product.odm.name=NE2213EEA
+ro.vendor.oplus.regionmark=EUEX
+
+# Display TODO: figure this out later
+# persist.vendor.display.pxlw.iris_feature=0x407f0780
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_20846
+persist.vendor.nfc.fw_file_name=sn100u_20846

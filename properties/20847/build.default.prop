@@ -1,12 +1,8 @@
-# Device info
-ro.product.odm.device=OP516FL1
-ro.product.odm.model=OP516FL1
-ro.product.odm.name=NE2213EEA
-ro.vendor.oplus.regionmark=EUEX
+import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
 
-# Display
-persist.vendor.display.pxlw.iris_feature=0x407f0780
+# Display TODO: figure this out later
+# persist.vendor.display.pxlw.iris_feature=0x400080
 
 # NFC
-persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_22811
-persist.vendor.nfc.fw_file_name=sn100u_22811
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_20847
+persist.vendor.nfc.fw_file_name=sn100u_20847
