@@ -23,8 +23,8 @@ from extract_utils_oplus import (
 namespace_imports = [
     'hardware/oplus',
     'hardware/pixelworks/interfaces',
-    'hardware/qcom-caf/sm8550',
-    'vendor/oneplus/sm8550-common',
+    'hardware/qcom-caf/sm8450',
+    'vendor/oneplus/sm8450-common',
     'vendor/qcom/opensource/display',
     'vendor/qcom/opensource/commonsys-intf/display',
 ]
@@ -87,7 +87,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'salami',
+    'wly',
     'oneplus',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
@@ -97,11 +97,11 @@ module = ExtractUtilsModule(
 
 add_generated_thermal_engine_config(
     module,
-    horae_target_config='system_ext/etc/horae/horae_SM8550.conf',
+    horae_target_config='system_ext/etc/horae/horae_SM8450.conf',
 )
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8550-common', module.vendor
+        module, 'sm8450-common', module.vendor
     )
     utils.run()
