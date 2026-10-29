@@ -45,8 +45,8 @@ blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera =  0;  0;  0;  1;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;  0;'),
     (
-        'odm/etc/libnfc-mtp-SN100.conf_22811',
-        'odm/etc/libnfc-mtp-SN100.conf_22861'
+        'odm/etc/libnfc-mtp-SN100.conf_20846',
+        'odm/etc/libnfc-mtp-SN100.conf_20847'
     ): blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
