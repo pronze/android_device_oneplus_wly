@@ -1,8 +1,8 @@
 # Device info
-ro.product.odm.device=OP591BL1
-ro.product.odm.model=PHB110
-ro.product.odm.name=PHB110
-ro.vendor.oplus.regionmark=CN
+ro.product.odm.device=OP516FL1
+ro.product.odm.model=OP516FL1
+ro.product.odm.name=NE2213EEA
+ro.vendor.oplus.regionmark=EUEX
 
 # Display
 persist.vendor.display.pxlw.iris_feature=0x407f0780

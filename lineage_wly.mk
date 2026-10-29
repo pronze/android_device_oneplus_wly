@@ -7,24 +7,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from salami device
-$(call inherit-product, device/oneplus/salami/device.mk)
+# Inherit from wly device
+$(call inherit-product, device/oneplus/wly/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_salami
-PRODUCT_DEVICE := salami
+PRODUCT_NAME := lineage_wly
+PRODUCT_DEVICE := wly
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2449
+PRODUCT_MODEL := NE2213
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi-user 16 BP2A.250605.015 1789036280442 release-keys" \
-    BuildFingerprint=OnePlus/CPH2449EEA/OP594DL1:16/TP1A.220905.001/T.R4T3.3b5d87c-159204d-16035e1:user/release-keys \
-    DeviceName=OP594DL1 \
-    DeviceProduct=CPH2449 \
-    SystemDevice=OP594DL1 \
-    SystemName=CPH2449
+    BuildFingerprint=OnePlus/NE2213EEA/OP516FL1:16/BP2A.250605.015/S.3c11fd8-181a3a9-17c6449:user/release-keys \
+    DeviceName=OP516FL1 \
+    DeviceProduct=NE2213 \
+    SystemDevice=OP516FL1 \
+    SystemName=NE2213

@@ -18,9 +18,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946342906530435.xml
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694401.xml
 
-$(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/salami)
+$(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/wly)
 $(call soong_config_set_bool,qtidisplay,pxlw_hw_iris7,true)
 
 # Fingerprint
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-richtap
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oneplus/sm8550-common/common.mk)
+$(call inherit-product, device/oneplus/sm8450-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/salami/salami-vendor.mk)
+$(call inherit-product, vendor/oneplus/wly/wly-vendor.mk)
