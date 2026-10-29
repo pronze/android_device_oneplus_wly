@@ -1540,52 +1540,52 @@ odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors config
 odm/etc/sensor/config/waipio_qrd_ak0991x.json
-/odm/etc/sensor/config/waipio_qrd_alsps.json
-/odm/etc/sensor/config/waipio_qrd_bmp380.json
-/odm/etc/sensor/config/waipio_qrd_cct_rear.json
-/odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
-/odm/etc/sensor/config/waipio_qrd_lps22hb.json
-/odm/etc/sensor/config/waipio_qrd_lsm6dso_0.json
-/odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
-/odm/etc/sensor/config/waipio_qrd_oplus_flight_detect.json
-/odm/etc/sensor/config/waipio_qrd_pocket.json
-/odm/etc/sensor/config/waipio_qrd_sx933x_0.json
-/odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
-/odm/etc/sensor/sensor_config.json
+odm/etc/sensor/config/waipio_qrd_alsps.json
+odm/etc/sensor/config/waipio_qrd_bmp380.json
+odm/etc/sensor/config/waipio_qrd_cct_rear.json
+odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
+odm/etc/sensor/config/waipio_qrd_lps22hb.json
+odm/etc/sensor/config/waipio_qrd_lsm6dso_0.json
+odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
+odm/etc/sensor/config/waipio_qrd_oplus_flight_detect.json
+odm/etc/sensor/config/waipio_qrd_pocket.json
+odm/etc/sensor/config/waipio_qrd_sx933x_0.json
+odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
+odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-/odm/firmware/tp/21631/FW_S3908_SAMSUNG.img
-/odm/firmware/tp/21631/FW_S3908_SAMSUNG_FAE.img
-/odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG.img
-/odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG_AGING.img
+odm/firmware/tp/21631/FW_S3908_SAMSUNG.img
+odm/firmware/tp/21631/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG_AGING.img
 
 # UFS
-/odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
-/odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
-/odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
-/odm/firmware/ufs/SAMSUNG-KLUFG8RHGB-B0E1.bin
-/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
+odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
+odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
+odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
+odm/firmware/ufs/SAMSUNG-KLUFG8RHGB-B0E1.bin
+odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 
 # Vibrator
 odm/etc/aac_richtap.config
 vendor/lib64/libaacvibrator.so
 
 # WiFi
-/odm/etc/wifi/bdwlan.b0a
-/odm/etc/wifi/bdwlan.b0c
-/odm/etc/wifi/bdwlan.b0e
-/odm/etc/wifi/bdwlan.elf
-/odm/etc/wifi/bdwlang.b0a
-/odm/etc/wifi/bdwlang.b0c
-/odm/etc/wifi/bdwlang.b0e
-/odm/etc/wifi/bdwlang.elf
-/odm/etc/wifi/bin_version
-/odm/etc/wifi/cnss_diag.conf
-/odm/etc/wifi/cnss_diag_always_on.conf
-/odm/etc/wifi/regdb.bin
-/odm/etc/wifi/regdb_version
-/odm/etc/wifi/sar-vendor-cmd.xml
-/odm/etc/wifi/wifisar.cfg
-/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
-/odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
-/odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
+odm/etc/wifi/bdwlan.b0a
+odm/etc/wifi/bdwlan.b0c
+odm/etc/wifi/bdwlan.b0e
+odm/etc/wifi/bdwlan.elf
+odm/etc/wifi/bdwlang.b0a
+odm/etc/wifi/bdwlang.b0c
+odm/etc/wifi/bdwlang.b0e
+odm/etc/wifi/bdwlang.elf
+odm/etc/wifi/bin_version
+odm/etc/wifi/cnss_diag.conf
+odm/etc/wifi/cnss_diag_always_on.conf
+odm/etc/wifi/regdb.bin
+odm/etc/wifi/regdb_version
+odm/etc/wifi/sar-vendor-cmd.xml
+odm/etc/wifi/wifisar.cfg
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
