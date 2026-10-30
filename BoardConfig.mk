@@ -4,7 +4,7 @@
 #
 
 # Partitions
-BOARD_SUPER_PARTITION_SIZE := 16940199936
+BOARD_SUPER_PARTITION_SIZE := 11274289152
 
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8450-common/BoardConfigCommon.mk
