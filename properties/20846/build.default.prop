@@ -1,8 +1,8 @@
 # Device info
 ro.product.odm.device=OP516FL1
-ro.product.odm.model=OP516FL1
-ro.product.odm.name=NE2213EEA
-ro.vendor.oplus.regionmark=EUEX
+ro.product.odm.model=NE2210
+ro.product.odm.name=NE2210
+ro.vendor.oplus.regionmark=CN
 
 # Display TODO: figure this out later
 # persist.vendor.display.pxlw.iris_feature=0x407f0780

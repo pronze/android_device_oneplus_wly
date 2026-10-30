@@ -1,3 +1,4 @@
-# Regional properties TODO: ro.boot.prjname can be easily found, cba implementing for 6-7 models however
-# ro.product.property_source_order=odm,vendor,product,system_ext,system
-# import /odm/etc/${ro.boot.prjname}/build.default.prop
+# Regional properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+import /odm/etc/${ro.boot.prjname}/build.default.prop
+

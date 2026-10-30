@@ -1,4 +1,9 @@
-import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
+# Device info
+ro.product.odm.device=OP516FL1
+ro.product.odm.model=NE2213
+ro.product.odm.name=NE2213EEA
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.radio.sar_regionmark=EUEX
 
 # Display TODO: figure this out later
 # persist.vendor.display.pxlw.iris_feature=0x400080
