@@ -1163,13 +1163,6 @@ odm/lib64/libosie_stub.so
 odm/lib64/libpngwrapper.so
 odm/lib64/libpnscr2.so
 odm/lib64/libpnscr2_aidl.so
-odm/lib64/libpwirisIoctlWrapper.so
-odm/lib64/libpwiriscalibrate.so
-odm/lib64/libpwirisfeature.so
-odm/lib64/libpwirishalwrapper.so
-odm/lib64/libpwirisservice.so
-odm/lib64/libpwirissoft.so
-odm/lib64/libpwsoftirisPCS.so
 odm/lib64/libqsee_keybox_ca.so
 odm/lib64/libqti-radio-service.so
 odm/lib64/libqti-subsys-service.so
@@ -1187,7 +1180,6 @@ odm/lib64/libsfplugin_ccodec_utils.so
 odm/lib64/libsharebuffer.so
 odm/lib64/libsharebuffer_impl.so
 odm/lib64/libsn220u_fw.so
-odm/lib64/libsnapdragoncolor-pxlw.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_loader.so
@@ -1197,13 +1189,11 @@ odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
 odm/lib64/libstdc++.so
 odm/lib64/libstface_fd_api.so
-odm/lib64/libstfaceunlockocl.so
 odm/lib64/libstfd_mobile_api.so
 odm/lib64/libsubsys-service.so
 odm/lib64/libsubsys-utils.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
-odm/lib64/libtfa98xx.so
 odm/lib64/libthirdcapability.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
