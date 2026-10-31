@@ -44,12 +44,12 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera =  0;  0;  0;  1;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;  0;'),
-    (
-        'odm/etc/libnfc-mtp-SN100.conf_20846',
-        'odm/etc/libnfc-mtp-SN100.conf_20847'
-    ): blob_fixup()
-        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+   # (
+   #     'odm/etc/libnfc-mtp-SN100.conf_20846',
+   #     'odm/etc/libnfc-mtp-SN100.conf_20847'
+   # ): blob_fixup()
+   #     .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
+   #     .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
@@ -78,8 +78,8 @@ blob_fixups: blob_fixups_user_type = {
     'odm/lib64/libextensionlayer.so': blob_fixup()
         .replace_needed('libziparchive.so', 'libziparchive_odm.so'),
     (
-        'vendor/bin/hw/vendor.qti.camera.provider-service_64',
-        'vendor/lib64/camx.provider-impl.so',
+        'vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64',
+        'vendor/lib64/camx.provider@2.4-impl.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
