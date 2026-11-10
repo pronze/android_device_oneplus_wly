@@ -69,10 +69,13 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lock')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
-    'odm/lib64/libarcsoft_high_dynamic_range_v4.so': blob_fixup()
+    ('odm/lib64/libaiboost_hexagon.so', 'odm/lib64/libarcsoft_high_dynamic_range_v4.so'): blob_fixup()
         .clear_symbol_version('remote_handle_close')
         .clear_symbol_version('remote_handle_invoke')
         .clear_symbol_version('remote_handle_open')
+        .clear_symbol_version('remote_handle64_close')
+        .clear_symbol_version('remote_handle64_invoke')
+        .clear_symbol_version('remote_handle64_open')
         .clear_symbol_version('remote_register_buf_attr')
         .clear_symbol_version('remote_register_buf'),
     'odm/lib64/libextensionlayer.so': blob_fixup()
@@ -83,7 +86,27 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0')
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    (
+        'odm/lib64/libPerfectColor.so',
+        'odm/lib64/libCOppLceTonemapAPI.so',
+        'odm/lib64/libSuperRaw.so',
+        'odm/lib64/libYTCommon.so',
+        'odm/lib64/libaps_frame_registration.so',
+        'odm/lib64/libyuv2.so'
+     ): blob_fixup()
+        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    'vendor/lib64/libcamximageformatutils.so': blob_fixup()
+        .replace_needed('vendor.qti.hardware.display.config-V2-ndk_platform.so', 'vendor.qti.hardware.display.config-V2-ndk.so'),
+    'odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so': blob_fixup()
+        .replace_needed('vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform.so', 'vendor.oplus.hardware.sendextcamcmd-V2-ndk.so'),
+    (
+        'odm/lib64/libarcsoft_dual_sat.so',
+        'odm/lib64/libarcsoft_dual_zoomtranslator.so',
+        'odm/lib64/libarcsoft_triple_sat.so',
+        'odm/lib64/libarcsoft_triple_zoomtranslator.so'
+    ): blob_fixup()
+        .add_needed('libc++_shared.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
@@ -92,7 +115,7 @@ module = ExtractUtilsModule(
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
-    add_firmware_proprietary_file=True,
+    #add_firmware_proprietary_file=True,
 )
 
 add_generated_thermal_engine_config(
