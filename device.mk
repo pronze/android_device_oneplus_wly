@@ -13,12 +13,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2376
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 3216
+TARGET_SCREEN_WIDTH := 1440
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694401.xml
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694402.xml
 
 $(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/wly)
 $(call soong_config_set_bool,qtidisplay,pxlw_hw_iris7,true)
