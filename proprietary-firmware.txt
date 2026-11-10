@@ -1,9 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 5G (CPH2449_16.0.5.1301(EX01)).
+## are from OnePlus 10 Pro 5G (NE2213.16.0.3.530(EX01)).
 
 abl.img;AB
-aop.img;AB
 aop_config.img;AB
+aop.img;AB
 bluetooth.img;AB
 cpucp.img;AB
 devcfg.img;AB
@@ -15,12 +15,13 @@ imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
 oplus_sec.img;AB
+oplusstanvbk.img;AB
 qupfw.img;AB
 shrm.img;AB
 splash.img;AB
 tz.img;AB
 uefi.img;AB
 uefisecapp.img;AB
-xbl.img;AB
 xbl_config.img;AB
+xbl.img;AB
 xbl_ramdump.img;AB
