@@ -51,7 +51,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
-        .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
+        .replace_needed('android.hardware.graphics.common-V2-ndk_platform.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
         'odm/lib64/libCOppLceTonemapAPI.so',
         'odm/lib64/libCS.so',
