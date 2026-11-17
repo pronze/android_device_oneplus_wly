@@ -1393,7 +1393,12 @@ vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.xml
 
 # Face unlock
+odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service
+odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_face.xml
 odm/lib64/libstfaceunlockocl.so
+odm/init.oplus.face.rc
+vendor/lib64/libcamera2ndk_vendor.so
 
 # Face unlock firmware
 odm/vendor/firmware/facereg.b00
