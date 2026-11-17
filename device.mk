@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694402.xml
 
 $(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/wly)
-$(call soong_config_set_bool,qtidisplay,pxlw_hw_iris7,true)
 
 # Fingerprint
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
