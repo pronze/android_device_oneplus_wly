@@ -1494,14 +1494,13 @@ vendor/firmware/evautil64.b07
 vendor/firmware/evautil64.b08
 vendor/firmware/evautil64.mdt
 
-# NFC configs
-odm/etc/nfc/libnfc-mtp-SN100.conf_20846:odm/etc/libnfc-mtp-SN100.conf_20846
-odm/etc/nfc/libnfc-mtp-SN100.conf_20847:odm/etc/libnfc-mtp-SN100.conf_20847
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_20847:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_216AC:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_20847:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/libnfc-nci.conf_216AC:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u.bin
 
-# NFC firmware
-odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_60:vendor/firmware/sn100u_20846.bin
-odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u_20847.bin
 
 # Sensors config
 odm/etc/sensor/config/waipio_qrd_ak0991x.json
