@@ -71,7 +71,7 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.oplus-richtap
+    vendor.qti.hardware.vibrator.service
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8450-common/common.mk)
